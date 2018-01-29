@@ -1,0 +1,119 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	background-image: url("pokilist.png");
+}
+#pokedex {
+	width: 800px;
+  height: 500px;
+  position: relative;
+  left: 175px;
+  top: 209px;
+  display: inline-block;
+}
+.image {
+  
+  width: 100%;
+  height: auto;
+}
+.buttons {
+	opacity: 0;
+}
+#bluebutton {
+  width: 45px;
+  height: 39px;
+  top: 83%;
+  left: 5.5%;
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+}
+#upbutton {
+  width: 20px;
+  height: 31px;
+  top: 84%;
+  left: 37%;
+  position: absolute;
+  display: flex;
+  border-radius: 24%;
+}
+#downbutton {
+	width: 20px;
+  height: 31px;
+  top: 97%;
+  left: 37%;
+  position: absolute;
+  display: flex;
+  border-radius: 24%;
+}
+#leftbutton {
+  width: 38px;
+  height: 20px;
+  top: 91%;
+  left: 32%;
+  position: absolute;
+  display: flex;
+  border-radius: 24%;
+}
+#rightbutton {
+	width: 35px;
+  height: 20px;
+  top: 91%;
+  left: 40%;
+  position: absolute;
+  display: flex;
+  border-radius: 24%;
+}
+#addfavbutton {
+  width: 47px;
+  height: 14px;
+  top: 85%;
+  left: 13.5%;
+  position: absolute;
+  display: flex;
+  border-radius: 24%;
+}
+#excludefavbutton {
+	width: 47px;
+  height: 14px;
+  top: 85%;
+  left: 23.5%;
+  position: absolute;
+  display: flex;
+  border-radius: 24%;
+}
+.pokemon-array {
+  overflow: scroll;
+  width: 100px;
+  height: 140px;
+  top: 184px;
+  left: 81px;
+  position: absolute;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.favorites {
+  width: 240px;
+  height: 79px;
+  top: 194px;
+  left: 491px;
+  position: absolute;
+	overflow: scroll;
+}
+.info {
+  width: 131px;
+  height: 58px;
+  top: 479px;
+  left: 95px;
+  position: absolute;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+.pics {
+ 	width: 118px;
+  height: 127px;
+  top: 199px;
+  left: 212px;
+  position: absolute;
+  overflow: scroll;
+}
